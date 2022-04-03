@@ -1,17 +1,16 @@
 <template>
   <div>
-    <ToDo />
+    <ActorForm />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import ToDo from '@/components/ToDo.vue'
+import ActorForm from '@/components/ActorForm.vue'
 
 export default {
-  name: 'ToDoView',
+  name: 'ActorFormView',
   components: {
-    ToDo
+    ActorForm
   }
 }
 </script>
